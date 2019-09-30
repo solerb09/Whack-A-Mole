@@ -1,0 +1,42 @@
+body 
+{
+
+    background-color: green;
+
+ 
+}
+
+.piles 
+{
+    text-align:center;
+    padding-top: 5%
+}
+
+
+
+.title
+{
+    text-align: center;
+    font-size: 60px;
+    color: white;
+}
+
+img
+{
+    width: 200px;
+    height: 93px;
+}
+
+.countdown,  .total, .reenter
+{
+    text-align: center;
+    font-size: 40px;
+    color: white;
+}
+
+.miss, .hits
+{
+    text-align: left;
+    font-size: 18px;
+    color: white;
+}

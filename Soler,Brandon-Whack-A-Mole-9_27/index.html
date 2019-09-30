@@ -1,0 +1,45 @@
+<html>
+        <head>
+            <title> Whack-A-Mole</title>
+            <meta charset ="UTF-8">
+
+            <link rel="stylesheet" type="text/css" href="style/style.css">
+            <script type="text/javascript" src="scripts/whack.js"></script>
+        </head>
+    
+
+
+<body>
+    <div>
+        <div><p class="hits" id="hits"></p></div>
+        <div><p class="miss" id="miss"></p></div>
+    </div>
+    
+    <h1 class="title">Whack-A-Mole</h1> 
+    
+    <div class="piles">
+       <span id="hole1"><img src="img/dirt.png" draggable="false"></span>
+       <span id="hole2"><img src="img/dirt.png" draggable="false"></span>
+       <span id="hole3"><img src="img/dirt.png" draggable="false"></span>
+       <span id="hole4"><img src="img/dirt.png" draggable="false"></span>
+       <span id="hole5"><img src="img/dirt.png" draggable="false"></span>
+       <span id="hole6"><img src="img/dirt.png" draggable="false"></span>
+       <span id="hole7"><img src="img/dirt.png" draggable="false"></span>
+    </div>
+    
+    <br>
+    
+    <div class="title">
+        <button id="startButton" onclick = "startGame()">Start Game</button>
+    </div>
+    
+  
+
+    <h2 class="countdown" id="counter"></h2>
+    <p class="total" id="score"></p>
+
+    <p class="reenter" id="reenter"></p>
+
+
+</body>
+</html>
